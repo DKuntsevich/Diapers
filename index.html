@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <title>Главная</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#navigation a').mousedown(function(el){
+                var imgEl = $($(el.target).find('>:first-child').context);
+                var img = imgEl.attr('src').replace(".png", "_pushed.png");
+                imgEl.attr('src', img);
+
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -82,7 +95,7 @@
         <div class="diapers">
             <img src="images/img5.jpg"/>
             <img src="images/img16.png"/>
-            <img src="images/img17.png"/>
+            <a href="images/img17.jpg" rel="lightbox"><img src="images/thmb17.png"/></a>
         </div>
         <div class="add_text">
             <p>
