@@ -461,7 +461,7 @@ fieldset {
     border: none;
 }
 
-#form1 input,#form1 textarea{
+#feedbackForm input, #feedbackForm textarea{
     background:#f3f2e9;
     border:none;
     padding:5px 20px;
@@ -470,32 +470,33 @@ fieldset {
     margin-top: 20px;
 }
 
-#form1 textarea{
+#feedbackForm textarea{
     height:165px;
 }
 
-#form1 .name{
+#feedbackForm .name{
     margin-right:24px;
 }
 
-#form1 input{
+#feedbackForm input{
     width:153px;
 }
 
-#form1 label{
+#feedbackForm label{
     float:left;
     margin-bottom:20px;
     position:relative;
 }
 
-#form1 .error,#form1 .empty{
+#feedbackForm .error, #feedbackForm .empty{
+    display:none;
     position:absolute;
     top:100%;
     font:11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: #575758;
 }
 
-#form1 .btns{
+#feedbackForm .btns{
     width:100%;
     display:block;
     position:relative;
@@ -503,18 +504,22 @@ fieldset {
     height:20px;
 }
 
-#form1 .btns .reset{
+#feedbackForm .btns .reset{
     position:absolute;
     left:280px;
     /*left:343px;*/
     z-index:10;
 }
 
-#form1 .btns .submit{
+#feedbackForm .btns .submit{
     position:absolute;
     left:330px;
     /*left:405px;*/
     z-index:10;
+}
+
+#feedbackForm .success {
+    display: none;
 }
 
 

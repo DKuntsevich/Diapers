@@ -6,6 +6,51 @@
     <title>Доставка и контакты</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="http://malsup.github.io/jquery.form.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.error').prev()
+                .focus(function(el) {
+                    if($(el.target).attr('isDirty') != "yes") {
+                        $(el.target).attr('oldVal', $(el.target).val());
+                        $(el.target).val('');
+                    }
+                })
+                .focusout(function(el){
+                    if($(el.target).attr('isDirty') != "yes") {
+                        $(el.target).val($(el.target).attr('oldVal'));
+                    }
+                })
+                .keyup(function(el){
+                    if($(el.target).val() != ''){
+                        $(el.target).attr('isDirty', "yes");
+                        $(el.target).next().hide();
+                    }
+                    else
+                        $(el.target).next().show();
+                });
+
+
+            $('#feedbackForm').ajaxForm({
+                beforeSerialize: function($form, options) {
+                    var isValid = true;
+                    $('.error').each(function(el){if($($('.error')[el]).is(":visible")) {isValid = false;};});
+                    $('.error').each(function(el){if($(el.target).prev().attr('isDirty') != 'yes'){isValid = false;}});
+                    if(!isValid)
+                        return false;
+                },
+                success: function() {
+                    $('.success').show();
+                },
+                clearForm: true
+            });
+
+            $('#submitLink').click(function(){$('#feedbackForm').submit();});
+        });
+    </script>
+
 </head>
 
 <body>
@@ -24,7 +69,7 @@
     </div>
     <div class="form">
         <h1>Форма обратной связи:</h1>
-        <form action="http://kme-handler.appspot.com/" id="form1">
+        <form action="http://kme-handler.appspot.com/" id="feedbackForm">
             <fieldset>
                 <div class="success"> Спасибо за заполнение формы обратной связи!<br>
                     <strong>Мы свяжемся с Вами в ближайшее время.</strong></div>
@@ -41,9 +86,9 @@
                     <span class="error">*Сообщение слишком короткое.</span> <span class="empty">*Обязательное поле для заполнения.</span>
                 </label>
 
-                <div class="btns"><a href="#"
+                <div class="btns"><a href="#" id="submitLink"
                                      class="mrk submit"
-                                     data-type="submit">Отправить</a>
+                                     >Отправить</a>
                 </div>
             </fieldset>
         </form>
