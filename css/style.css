@@ -19,9 +19,10 @@ body{
 
 .container{
     width: 919px !important;
+    padding-bottom: 80px;
     min-height: 100%;
     display: inline-block;
-    background-color: #FDF1C9 !important;
+    background-color: #99FFCC !important;
     position: relative;
     clear: both;
 }
@@ -185,7 +186,7 @@ body{
 .main{
     width:682px;
     float:left;
-    background-color: #FDF1C9;
+    background-color: #99FFCC;
 }
 
 .main img{
@@ -281,7 +282,7 @@ body{
 
 .header {
     display: inline-block;
-    background-color: #FDF1C9;
+    background-color: #99FFCC;
     width: 560px;
     height: 120px;
     padding-left: 40px;
@@ -298,7 +299,7 @@ body{
 
 .header h2{
     font-family: AR DELANEY;
-    font-size: 52px;
+    font-size: 50px;
     color: #f27813;
     padding-left: 180px;
 }
@@ -328,7 +329,7 @@ body{
 
 .main_text{
     clear: both;
-    padding: 0px 30px 20px 30px;
+    padding: 0px 30px 0px 30px;
 }
 
 .main_text p{
@@ -569,3 +570,28 @@ fieldset {
 .add_text{
 
 }
+
+.box{
+    width: 180px;
+    float:left;
+    padding-right: 30px;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+
+.boxText p{
+    width: 180px;
+    text-align: center;
+}
+
+.status{
+    width: 100px !important;
+    height: 25px;
+    background-color: #95b3d7;
+    border: solid 2px #385d8a;
+    font-weight: normal !important;
+    padding-top: 5px !important;
+    margin-left: 40px;
+}
+
