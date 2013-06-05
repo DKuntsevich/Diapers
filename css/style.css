@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Conv_ARDELANEY';
+    src: url('fonts/ARDELANEY.eot');
+    src: local('☺'), url('fonts/ARDELANEY.woff') format('woff'), url('fonts/ARDELANEY.ttf') format('truetype'), url('fonts/ARDELANEY.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *{
     margin:0px;
     padding:0px;
@@ -26,6 +35,17 @@ body{
     position: relative;
     clear: both;
 }
+
+.container1{
+    width: 919px !important;
+    padding-bottom: 80px;
+    min-height: 100%;
+    display: inline-block;
+    background-color: #ffffff !important;
+    position: relative;
+    clear: both;
+}
+
 
 #header{
     display:block;
@@ -298,8 +318,8 @@ body{
 }
 
 .header h2{
-    font-family: AR DELANEY;
-    font-size: 50px;
+    font-family: 'Conv_ARDELANEY',Sans-Serif;
+    font-size: 52px;
     color: #f27813;
     padding-left: 180px;
 }
