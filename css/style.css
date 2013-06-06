@@ -522,7 +522,7 @@ fieldset {
     display:block;
     position:relative;
     overflow:hidden;
-    height:20px;
+    height:40px;
 }
 
 #feedbackForm .btns .reset{
@@ -534,7 +534,7 @@ fieldset {
 
 #feedbackForm .btns .submit{
     position:absolute;
-    left:330px;
+    left:280px;
     /*left:405px;*/
     z-index:10;
 }

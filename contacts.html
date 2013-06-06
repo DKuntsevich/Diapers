@@ -7,10 +7,17 @@
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="http://malsup.github.io/jquery.form.js"></script>
     <script type="text/javascript">
-        $(function() {
+        $(function(){
+            $('#submitLink').mousedown(function(el){
+                var imgEl = $($(el.target).find('>:first-child').context);
+                var img = imgEl.attr('src').replace(".png", "_pushed.png");
+                imgEl.attr('src', img);
+
+            });
+
             $('.error').prev()
                 .focus(function(el) {
                     if($(el.target).attr('isDirty') != "yes") {
@@ -88,7 +95,7 @@
 
                 <div class="btns"><a href="#" id="submitLink"
                                      class="mrk submit"
-                                     >Отправить</a>
+                                     ><img src="images/button_send.png" alt="Отправить" /></a>
                 </div>
             </fieldset>
         </form>
