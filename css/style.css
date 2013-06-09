@@ -318,10 +318,12 @@ body{
 }
 
 .header h2{
-    font-family: 'Conv_ARDELANEY',Sans-Serif;
+    /*font-family: 'Conv_ARDELANEY',Sans-Serif;
     font-size: 52px;
-    color: #f27813;
+    color: #f27813;*/
     padding-left: 180px;
+    width: 207px;
+    height: 39px;
 }
 
 .row {

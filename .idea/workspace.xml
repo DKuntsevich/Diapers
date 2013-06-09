@@ -4,14 +4,15 @@
     <list default="true" id="113b847c-66e5-4e08-b06b-692dcb117dae" name="Default" comment="" />
     <ignored path="Podguzniki.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370285404241" ignored="false" />
-    <file path="/style.css" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370420245802" ignored="false" />
-    <file path="/Dummy.txt" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1369676026506" ignored="false" />
+    <file path="/index.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370541840393" ignored="false" />
+    <file path="/style.css" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370541779896" ignored="false" />
+    <file path="/Dummy.txt" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370438597238" ignored="false" />
     <file path="$PROJECT_DIR$/../DKuntsevich/Pillows.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1369662738676" ignored="false" />
-    <file path="$PROJECT_DIR$/../DKuntsevich/Toys.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1369662748151" ignored="false" />
+    <file path="$PROJECT_DIR$/../DKuntsevich/Toys.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370438650196" ignored="false" />
     <file path="/about.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1369914880132" ignored="false" />
     <file path="/contacts.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370008513888" ignored="false" />
-    <file path="/catalogue.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370285608252" ignored="false" />
+    <file path="/catalogue.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370541924401" ignored="false" />
+    <file path="$PROJECT_DIR$/../DKuntsevich/index.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370439167126" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,55 +76,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="931" selection-end="931" vertical-scroll-proportion="-13.076923">
+            <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalogue.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="326" column="0" selection-start="6107" selection-end="6107" vertical-scroll-proportion="-11.68">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalogue.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalogue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="395" selection-end="395" vertical-scroll-proportion="-7.8461537">
+            <state line="177" column="6" selection-start="5952" selection-end="5952" vertical-scroll-proportion="0.56692916">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="508" selection-end="518" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="22" selection-start="3989" selection-end="3989" vertical-scroll-proportion="-8.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="323" column="24" selection-start="6066" selection-end="6066" vertical-scroll-proportion="0.7120921">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lightbox.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lightbox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="6" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,9 +115,10 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/forms.js" />
         <option value="$PROJECT_DIR$/contacts.html" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/catalogue.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/catalogue.html" />
       </list>
     </option>
   </component>
@@ -179,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,17 +172,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Podguzniki" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diapers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DKuntsevich" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -318,16 +316,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="555" column="18" selection-start="8870" selection-end="8870" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="9" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="57" column="9" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -372,47 +363,41 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="508" selection-end="518" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="22" selection-start="3989" selection-end="3989" vertical-scroll-proportion="-8.153846">
-          <folding />
-        </state>
+        <state line="91" column="22" selection-start="3989" selection-end="3989" vertical-scroll-proportion="0.3977486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="508" selection-end="518" vertical-scroll-proportion="0.4903846" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lightbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalogue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="395" selection-end="395" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="78" column="6" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.031135531" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="931" selection-end="931" vertical-scroll-proportion="-13.076923">
+        <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="323" column="24" selection-start="6066" selection-end="6066" vertical-scroll-proportion="0.7120921">
+        <state line="326" column="0" selection-start="6107" selection-end="6107" vertical-scroll-proportion="-11.68">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalogue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="6" selection-start="5952" selection-end="5952" vertical-scroll-proportion="0.56692916">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h2#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
