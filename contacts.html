@@ -18,6 +18,13 @@
 
             });
 
+            $('#submitLink').mouseup(function(el){
+                var imgEl = $($(el.target).find('>:first-child').context);
+                var img = imgEl.attr('src').replace("_pushed.png", ".png");
+                imgEl.attr('src', img);
+
+            });
+
             $('.error').prev()
                 .focus(function(el) {
                     if($(el.target).attr('isDirty') != "yes") {
@@ -44,7 +51,7 @@
                 beforeSerialize: function($form, options) {
                     var isValid = true;
                     $('.error').each(function(el){if($($('.error')[el]).is(":visible")) {isValid = false;};});
-                    $('.error').each(function(el){if($(el.target).prev().attr('isDirty') != 'yes'){isValid = false;}});
+                    $('.error').each(function(el){if($($('.error')[el]).prev().attr('isDirty') != 'yes'){isValid = false;}});
                     if(!isValid)
                         return false;
                 },
@@ -76,20 +83,20 @@
     </div>
     <div class="form">
         <h1>Форма обратной связи:</h1>
-        <form action="http://dzd-nn.ru/feedbackForm.php" id="feedbackForm">
+        <form action="http://dzd-nn.ru/feedbackForm.php" id="feedbackForm" method="POST">
             <fieldset>
                 <div class="success"> Спасибо за заполнение формы обратной связи!<br>
                     <strong>Мы свяжемся с Вами в ближайшее время.</strong></div>
                 <label class="name">
-                    <input type="text" value="Имя:">
+                    <input type="text" value="Имя:" name="name">
                     <span class="error">*Некорректный формат.</span> <span class="empty">*Обязательное поле для заполнения.</span>
                 </label>
                 <label class="email">
-                    <input type="email" value="Email:">
+                    <input type="email" value="Email:" name="email">
                     <span class="error">*Некорректный формат.</span> <span class="empty">*Обязательное поле для заполнения.</span>
                 </label>
                 <label class="message">
-                    <textarea>Сообщение:</textarea>
+                    <textarea name="message">Сообщение:</textarea>
                     <span class="error">*Сообщение слишком короткое.</span> <span class="empty">*Обязательное поле для заполнения.</span>
                 </label>
 
