@@ -13,7 +13,7 @@
     <file path="/contacts.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370880278758" ignored="false" />
     <file path="/catalogue.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370541924401" ignored="false" />
     <file path="$PROJECT_DIR$/../DKuntsevich/index.html" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370439167126" ignored="false" />
-    <file path="/feedbackForm.php" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1370880614469" ignored="false" />
+    <file path="/feedbackForm.php" changelist="113b847c-66e5-4e08-b06b-692dcb117dae" time="1371057263899" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0">
+            <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="26.807692">
               <folding />
             </state>
           </provider>
@@ -115,7 +115,7 @@
       <file leaf-file-name="feedbackForm.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feedbackForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="43" selection-start="46" selection-end="46" vertical-scroll-proportion="0.030411448">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.03142329">
               <folding />
             </state>
           </provider>
@@ -143,10 +143,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,13 +246,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16753536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -393,13 +393,6 @@
         <state line="78" column="6" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.031135531" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="326" column="0" selection-start="6107" selection-end="6107" vertical-scroll-proportion="0.0">
@@ -423,9 +416,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="50" selection-start="2922" selection-end="2922" vertical-scroll-proportion="26.807692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feedbackForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="46" selection-end="46" vertical-scroll-proportion="0.030411448">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.03142329">
           <folding />
         </state>
       </provider>

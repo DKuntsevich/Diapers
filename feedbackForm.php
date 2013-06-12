@@ -2,8 +2,7 @@
 	$owner_email = 'podguznik2014@yandex.ru';
 	$headers = 'From: postmaster@dzd-nn.ru
 Reply-To: postmaster@dzd-nn.ru
-Content-Type: text/plain; charset=windows-1251
-Content-Transfer-Encoding: 8bit';
+Content-Type: text/plain; charset=utf-8';
 	$subject = 'A message from your site visitor ' . $_POST["name"] . ' <' . $_POST["email"] . '>';
 	$messageBody = "";
 	
