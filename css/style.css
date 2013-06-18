@@ -31,7 +31,7 @@ body{
     padding-bottom: 80px;
     min-height: 100%;
     display: inline-block;
-    background-color: #99FFCC !important;
+    background-color: #cefdd4 !important;
     position: relative;
     clear: both;
 }
@@ -206,7 +206,7 @@ body{
 .main{
     width:682px;
     float:left;
-    background-color: #99FFCC;
+    background-color: #cefdd4;
 }
 
 .main img{
@@ -302,7 +302,7 @@ body{
 
 .header {
     display: inline-block;
-    background-color: #99FFCC;
+    background-color: #cefdd4;
     width: 560px;
     height: 120px;
     padding-left: 40px;
@@ -615,9 +615,21 @@ fieldset {
 .status{
     width: 100px !important;
     height: 25px;
-    background-color: #95b3d7;
-    border: solid 2px #385d8a;
-    font-weight: normal !important;
+    /*background-color: #95b3d7;
+    border: solid 2px #385d8a;*/
+    font-weight: bold !important;
     padding-top: 5px !important;
     margin-left: 40px;
+    color: #05df67 !important;
+}
+
+.order {
+    width: 100px !important;
+    height: 25px;
+    /*background-color: #95b3d7;
+    border: solid 2px #385d8a;*/
+    font-weight: bold !important;
+    padding-top: 5px !important;
+    margin-left: 40px;
+    color: #f79646 !important;
 }
